@@ -144,7 +144,7 @@ La interfaz debe permitir al usuario:
 
 * `README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación
   así como una introducción a la aplicación, su funcionalidad y decisiones de
-  diseño que tomaron. Aquí puedes agregar un parte para definir tu plan de acción, 
+  diseño que tomaron. Aquí puedes agregar un parte para definir tu plan de acción,
   Objetivos de Aprendizaje que vas a prioritizar este proyecto.
 * `src/index.html`: este es el punto de entrada a tu aplicación. Este archivo
   debe contener tu _markup_ (HTML) e incluir el CSS y JavaScript necesario.
@@ -263,23 +263,23 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
 Un "superpoder" que esperamos puedas desarrollar durante el bootcamp es el de definir "mini-proyectos" que te acerquen paso a paso a la solución del "gran proyecto". Es el equvalente a comenzar armando esquinas o bordes del rompecabezas/puzzle sin saber necesariamente cómo encajarán al final. Déjate llevar y explora. Estas son algunas sugerencias:
 
-**"Mover" un valor de una caja de texto a otra**  
+**"Mover" un valor de una caja de texto a otra**
 Crea una interfaz simple con 2 cajas de texto y un botón. Si escribo algo en la caja de texto 1 y le doy click al botón, quiero que lo que escribí se "mueva" desde la caja 1 hacia la caja 2.
 
 Para lograr esto tendrás que aprender a: detectar un evento en el navegador (click), identificar un elemento de tu interfaz para obtener su contenido/valor (la caja de texto 1), "escribir" un valor en otro elemento de la interfaz (caja de texto 2).
 
-**"Convertir" una letra en su código ASCII**  
+**"Convertir" una letra en su código ASCII**
 Pensando en la misma interfaz anterior (2 cajas de texto y 1 botón). Quiero escribir A o B (una sola) en la caja de texto 1 y que cuando le dé click al botón, aparezca el código ASCII de la letra en la caja de texto 2.
 
 Ahora no solamente estás "leyendo" y "escribiendo" valores en el navegador, también tendrás que "manipularlos" antes de "escribirlos".
 
-**"Cifrar" A o B con un desplazamiento (offset) de 3**  
+**"Cifrar" A o B con un desplazamiento (offset) de 3**
 Cuando escriba A o B en la caja de texto 1 y le dé click al botón, quiero que apaezca la letra cifrada en la caja de texto 2. Por ejemplo, si escribo B debe aparecer E.
 
-**"Cifrar" una letra con un desplazamiento de 30 caracteres**  
+**"Cifrar" una letra con un desplazamiento de 30 caracteres**
 En los casos anteriores probamos con letras y con un desplazamiento que no implicaban llegar "más allá" de final del alfabeto. Ahora prueba con un caso que sí lo requiera. Por ejmplo 30 caracteres de desplazamiento. Para esto te puede ayudar el video de la sección "Recursos y temas relacionados". La fórmula no es lo importante en este proyecto, lo importante es lo que haces con la fórmula.
 
-**"Cifrar" tres letras con un desplazamiento cuqlquiera**  
+**"Cifrar" tres letras con un desplazamiento cuqlquiera**
 Hasta ahora hemos explorado trabajar con una sola letra pero ¿cómo haríamos si son más? Para hacerlo tendrás que aprender cómo ir cifrando letra por letra y ya estás mucho más cerca de resolver el proyecto "grande"
 
 Fíjate que la complejidad es creciente, la clave está en definir el primer paso lo más simple y pequeño que puedas. Luego tú misma puedes ir agregando complejidad a medida que avanzas.
@@ -371,3 +371,28 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
 * [ ] Cifra/descifra minúsculas
 * [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
 * [ ] Permite usar un `offset` negativo.
+
+# Proyecto Cifrado César
+## Índice
+
+* [1. Diseño de experiencia de usuario](#1-diseño-de-experiencia-de-usuario)
+* [2. De](#2)
+
+***
+## 1. Diseño de experiencia de usuario
+* Descripción del producto
+  * Herramienta de mensajería secreta para amigos y parejas, brinda la solución de cifrar y descifrar mensajes de manera interactiva e intuitiva.
+* Principales usuarios del producto.
+  * Amigos
+  * Parejas
+* Objetivos de estos usuarios en relación con el producto.
+  * El usuario emisor del mensaje:
+    * Escribir su mensaje secreto y colocar el número de seguridad(offset) con el que se va a cifrar el mensaje.
+    * Obtener su mensaje secreto cifrado.
+    * Copiar el mensaje para enviarlo a sus amigos o parejas, así como enviar el número para descifrar el mensaje.
+  * El usuario receptor del mensaje:
+    * Colocar el mensaje secreto cifrado y el número de seguridad(offset) con el que se va a descifrar el mensaje.
+    * Obtener su mensaje secreto descifrado.
+* Resolución de problemas con el producto.
+  * El producto brinda la facilidad de cifrar y descifrar los mensajes secretos que deseen compartir entre amigos o parejas.
+* Proceso para definir el producto final a nivel de experiencia y de interfaz.
