@@ -62,7 +62,7 @@ ejemplo:
 
 Aprenderás a construir una aplicación web que interactuará
 con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
-como tecnologías. 
+como tecnologías.
 
 _No olvides a pensar en tu plan de acción - los objetivos que vas a prioritizar - y agrega tu plan en el README._
 
@@ -345,38 +345,38 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
 
 ### Parte Obligatoria
 
-* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
-* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
+* [x] `README.md` incluye info sobre proceso y decisiones de diseño.
+* [x] `README.md` explica claramente quiénes son los usuarios y su relación con
   el producto.
-* [ ] `README.md` explica claramente cómo el producto soluciona los
+* [x] `README.md` explica claramente cómo el producto soluciona los
   problemas/necesidades de los usuarios.
-* [ ] `README.md` (o otro archivo) contiene tu plan de acción - Objetivos que prioritizaste este proyecto.
-* [ ] Usa VanillaJS.
-* [ ] No utiliza `this`.
-* [ ] Implementa `cipher.encode`.
-* [ ] Implementa `cipher.decode`.
-* [ ] Pasa linter con configuración provista.
-* [ ] Pasa pruebas unitarias.
-* [ ] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
+* [x] `README.md` (o otro archivo) contiene tu plan de acción - Objetivos que prioritizaste este proyecto.
+* [x] Usa VanillaJS.
+* [x] No utiliza `this`.
+* [x] Implementa `cipher.encode`.
+* [x] Implementa `cipher.decode`.
+* [x] Pasa linter con configuración provista.
+* [x] Pasa pruebas unitarias.
+* [x] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
   mínimo del 50% de _branches_.
-* [ ] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
+* [x] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
   cifrado/descifrado.
-* [ ] Interfaz permite escribir un texto para ser cifrado.
-* [ ] Interfaz muestra el resultado del cifrado correctamente.
-* [ ] Interfaz permite escribir un texto para ser descifrado.
-* [ ] Interfaz muestra el resultado del descifrado correctamente.
+* [x] Interfaz permite escribir un texto para ser cifrado.
+* [x] Interfaz muestra el resultado del cifrado correctamente.
+* [x] Interfaz permite escribir un texto para ser descifrado.
+* [x] Interfaz muestra el resultado del descifrado correctamente.
 
 ### Parte Opcional: "Hacker edition"
 
-* [ ] Cifra/descifra minúsculas
+* [x] Cifra/descifra minúsculas
 * [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
-* [ ] Permite usar un `offset` negativo.
+* [x] Permite usar un `offset` negativo.
 
 # Proyecto Cifrado César
 ## Índice
 
 * [1. Diseño de experiencia de usuario](#1-diseño-de-experiencia-de-usuario)
-* [2. De](#2)
+* [2. Plan de acción](#2-plan-de-acción)
 
 ***
 ## 1. Diseño de experiencia de usuario
@@ -396,3 +396,13 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
 * Resolución de problemas con el producto.
   * El producto brinda la facilidad de cifrar y descifrar los mensajes secretos que deseen compartir entre amigos o parejas.
 * Proceso para definir el producto final a nivel de experiencia y de interfaz.
+  * Experiencia:
+    * Deseaba algo que además de funcional se sienta que es un producto intuitivo, confiable e interactivo, algo a lo que la mayoría de personas que utilizan internet estan acostumbrados cuando desean traducir algo. Para ello revise páginas como: [Deepl](https://www.deepl.com/translator), [Reverso Traducción](https://www.reverso.net/text_translation.aspx?lang=ES), [Google traductor](https://translate.google.com/?hl=es). Decidi escoger estas referencias porque comparé la encriptación con traducir palabras, y noté que al encriptar algo ya sea un mensaje, una palabra o contraseña, es como si estuvieras creando un nuevo idioma.
+    * El nombre del producto: Hice una lista de posibles nombres del cual elegí "Código Enigma", porque seguía la temática que deseaba transmitir a tráves del producto. Además, que hace referencia a la película del mismo nombre, en donde Alan Turing junto a otros matemáticos  intentan descifrar el código enigmo alemán durante la Segunda Guerra Mundial.
+    * Colores: Como el color principal elegí el morado porque transmite esa sensación de misterio, magia y creatividad. Como color secundario elegí uno verde-azulado para transmitir seguridad y a la vez armonizar con el color principal. Para las letras elegí el color blanco para contrastar con los otros colores.
+    * Tipografía: Elegí la combinación entre 'Comfortaa' para el título, los labels, y botones; y 'Roboto' para las cajas de texto.
+  * Prototipado:
+    Realice dos prototipos uno a papel y otro en Figma.
+    ![Prototipo](src/assets/prototipo.PNG)
+## 2. Plan de acción
+  * Se puede encontrar mi plan de acción en el siguiente enlace: [https://trello.com/b/O4pOVCRh/laboratoria-chiper](https://trello.com/b/O4pOVCRh/laboratoria-chiper)
